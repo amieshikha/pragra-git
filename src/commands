@@ -69,3 +69,13 @@ rm -r test	to delete a directory with files inside it.
 
 ##absolute/ root directory  / ( name of the directory) starting pont of all the directories
 ## relative/ home directory  ~  (part of your root directory)
+## Commands for Git
+   git init --- to initilize empty repo , first time process
+
+   91b205c (HEAD -> main) removed html first two lines 94e1a04 added html starter code to index.html 87c22cd added index.html and index.js 58d1d48 Added index.css file
+
+   git init === > to init the repo
+
+   git add . ----> to add files to git staging area git commit -m "message" ----> to save the local copy, snapshot
+
+   git push ----> to push the code to github
