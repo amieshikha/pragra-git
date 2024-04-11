@@ -76,5 +76,53 @@ continue--> skip the iteration.
 --> Class and objects, types, parameters, arguments 
 --> Parameters refers to the list of variables in a method declaration. 
 --> Arguments are the actual values that are passed in when the method is invoked. 
---> Class is a template or a blueprint for creating Objects, and it defines the attributes and behaviours of Objects of a certain type.
+--> (Logical entity)Class is collection of objects, variables and methods
+--> Class is a template or a blueprint for creating Objects, and it defines the attributes and behaviours of objects of a certain type.
+--> (Physical existence) Object is a variable of type class. 2 types: Primitive, Non-Primitive
 --> Object is an Instance of a Class, representing a real-world entity with its behaviour and state.
+--> Method is set of block of statements which executes a specific task
+--> new keyword will allocate memory to objects.
+--> to call the method we need to use object reference
+
+-) 9th class: 4 April 2024 (Thursday)
+# Recap: (Thursday)
+Git/Github
+Version control System ? tool which helps us to track and manage any changes to our code.
+
+Version control system
+repository where we keep our code
+Collaborate with diff team members
+share code and merge code from diff people
+Pull Request
+C drive Google Drive
+Git ----- GitHub ?
+
+Features of Git
+Distributed System ,
+Manage History
+track changes
+Revert the changes
+merge changes
+Multitasking
+Backups
+Create multiple copies -
+It's not only about the code. It's about the files.
+
+Alternatives to GitHub ? Bitbucket , SVN, Gitlab.
+
+-) 10th class: 6 April 2024 (Saturday)
+# Recap: (Tuesday)
+Class and Object ?
+methods , parameter and arguments
+-- >Constructor is a special kind of method
+which initialize the object
+--)no return type --)no even void
+-- >types of const
+default
+parameterized const
+this keyword-> helps you to give reference to current class
+method overloading--> same name but different parameters
+
+-) 11th class: 9 April 2024 (Tuesday)
+
+
