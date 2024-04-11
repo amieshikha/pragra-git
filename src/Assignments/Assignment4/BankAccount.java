@@ -36,6 +36,6 @@ public class BankAccount {
 
                 System.out.println("Account balance is :" +balance);
                 System.out.println("Account type is: " +accountType);
-                System.out.println("Hello");}
+                }
 
             }
