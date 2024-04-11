@@ -4,6 +4,8 @@
 
 package Assignments.Assignment4;
 
+import org.w3c.dom.ls.LSOutput;
+
 public class BankAccount {
     int accountNumber;
     String accountHolderName;
@@ -33,5 +35,7 @@ public class BankAccount {
                 System.out.println("Account holder name : " + accountHolderName);
 
                 System.out.println("Account balance is :" +balance);
-                System.out.println("Account type is: " +accountType);}
+                System.out.println("Account type is: " +accountType);
+                System.out.println("Hello");}
+
             }
