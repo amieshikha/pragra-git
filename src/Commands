@@ -1,0 +1,110 @@
+ctrl + /= single line comment
+ctrl + shift + /= multi line comment
+main = public static void main(String[] args)
+sout = System.out.println()
++ ---> overloaded operator
+concatenate / join two strings
+class--> first letter should be uppercase
+camelcasing--> ThisIsMyFirstJavaClass
+Variable, method, function--> first letter should be small
+default values:
+int --> 0, String--> null, Double--> 0.0, boolean--> false
+# Data types
+1 byte = 8 bits
+
+100 mbps
+100 Mbps   bit
+100 MBps  - byte
+
+
+# Basic Commands
+ls 	                      list all the files
+ls -lrt
+ls -l
+touch index.java	      create file
+touch file1 file2 file3	  create multiple files
+
+## Vim editor
+vi file1	open vim editor, open vi and press i to go to insert mode and exit
+:wq	    save and exit
+
+## commands for directory
+cd 	change directory
+mkdir 	create a new directory
+cd .. 	go back to previous directory
+
+pwd 	present working directory
+whoami	current computer name
+
+## Save and exit files
+:w	save the file
+:q	exit , if there is any unsaved change it wont let you exit
+:q!	exit without save
+:wq	to save and exit
+:x	 to save and exit
+
+shift + z + z 	exit
+
+## Copy files
+cp existing-file new-file	copy files
+
+## rename files
+mv	rename files
+
+## delete files
+rm 	remove / delete files
+
+## remove directory
+rmdir	 remove directory
+
+--> to remove content from the file
+> filename
+
+## remove directory if its not empty
+rm -rf test
+rm -r test	to delete a directory with files inside it.
+
+## absolute path
+## relative path
+
+##absolute/ root directory  / ( name of the directory) starting pont of all the directories
+## relative/ home directory  ~  (part of your root directory)
+## Commands for Git
+   git init --- to initilize empty repo , first time process
+
+   91b205c (HEAD -> main) removed html first two lines 94e1a04 added html starter code to index.html 87c22cd added index.html and index.js 58d1d48 Added index.css file
+
+   git init === > to init the repo
+
+   git add . ----> to add files to git staging area git commit -m "message" ----> to save the local copy, snapshot
+
+   git push ----> to push the code to github
+   ****************
+
+#
+main
+ |
+staging
+ |
+develop
+
+## git branch commands
+git checkout -b branch_name  ===>  create and switch branch at same time.
+git branch                  ===> to check the current branch
+git checkout branch         ====> switch to another branch
+git switch                  ====> switch to another branch
+git branch -d branch_name   ====>
+git branch --help          =====> list remote branched also
+
+
+
+
+
+develop ----- some more files
+staging ----   less files
+main   ---- same as staging
+
+
+git merge -- merge changes from develop --->  staging
+
+
