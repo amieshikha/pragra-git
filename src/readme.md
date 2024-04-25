@@ -124,5 +124,184 @@ this keyword-> helps you to give reference to current class
 method overloading--> same name but different parameters
 
 -) 11th class: 9 April 2024 (Tuesday)
+# Recap
+Constructors ? types
+
+this keyword
+
+method overloading
+
+--> JVM , JRE, JDK
+JVM ----> virtual machine creates byte code
+
+JVM is machine dependent
+
+Memory
+Stack and Heap memory
+
+Variables
+Local variable
+Instance variable
+static variable
+Static
+variables
+static method
+static block
+static nested class (later)
+variable
+static variable could refer to the common property of all the objects. for example
+
+Phone Android , Samsung, Lg, oneplus, Motorolla
+
+static method
+static methods can not use non static data members. this and super cannot be used in static context.
+
+static context -- non static context.
+
+-) 12th class: 11 April 2024 ( Thursday)
+
+## Recap
+
+Your branch is ahead of 'origin/main' by 1 commit.
+
+local ---- Laptop [1 more comit ]
+
+remote --- github [ ]
 
 
+commit ---> local commit
+
+Branch - pointer to a commit
+
+#
+main
+|
+staging
+|
+develop
+
+
+
+## git branch commands
+git checkout -b branch_name  ===>  create and switch branch at same time.
+git branch                  ===> to check the current branch
+git checkout branch         ====> switch to another branch
+git switch                  ====> switch to another branch
+git branch -d branch_name   ====> delete branch
+git branch --help          =====> list remote branched also
+
+
+1. git stash
+2. git reset
+3. git ignore
+4. rebase
+
+
+
+
+
+develop ----- some more files
+staging ----   less files
+main   ---- same as staging
+
+
+git merge -- merge changes from develop --->  staging
+
+
+
+
+
+-) 13th class: 13 April 2024 (Saturday)
+
+# JDK, JVM, JRE
+Memory management, Stack vs Heap, constructor chaining, static variables, method, block, nesting
+static method?
+why main is static?
+--> String
+#  Arrays
+# Types of arrays:
+Single Dimensional, Multi-Dimensional
+
+-) 14th class: 16 April 2024(Tuesday)
+
+Arrays Collection of similar data type
+
+types
+
+Single dim.
+multi dim.
+Strings
+--> == --> to check compare, check reference
+--> .equals()--> to check the value, check contents only
+Immutable ? why?--> cannot change the value of string
+Types:
+Literals,
+String object-> new
+foreach loop used for simplicity
+
+Heap ---> String constant pool
+
+String obj ------> Heap (non SCP )
+
+String vs StringBuffer Vs StringBuilder
+
+Mutable strings
+
+StringBuffer
+StringBuilder
+StringBuffer [1.0] StringBuilder
+
+Mutable Mutable
+Thread Safe (synchronized) non thread safe (non - synchronized)
+thread safe - not allow multithreading
+
+ATM ---->
+
+thread -- a small process.
+
+======================== Object Oriented Paradigm [OOPs]
+functional programming --- functions are first class citizen.
+
+OOP -- object are first class citizen
+
+Objects Classes
+
+4 pillars of OOP.
+
+Inheritance ================== iphone 10 -- Face id , camera , iphone 15 -- face id, enchaced camera, dynamic island.
+one class inherits from the other class properties and behaviour
+
+A variables, methods etc... | B inherit from A class.
+
+A ----> Parent class/ Super class / Base class | B -----> Child Class / Derived class/ Sub class
+
+Encapsulation ==================== Data hiding, wrapping up the data in single unit.
+
+Polymorphism - many forms.
+
+method overloading.... method overriding....
+
+method overloading vs overriding.
+
+sum(int a) sum (int a, int b)
+
+Abstraction
+Abstract ? showing only essential features but internal details/complexity.
+
+encapsulation                    abstraction
+hiding everything                showing neccessary details
+
+=========================== Access Modifiers
+private --- accessed within the class only // your wifi.
+public --- access anywhere. // starbucks wifi
+protected -- after inheritance
+default -- no keyword
+==================== Object
+every class in Java has a super class called as Object You created it or created by Java
+
+15th class: 18 April 2024( Thursday)
+
+
+16th class: 20 April 2024( Saturday)
+
+17th class: 23 April 2024(Tuesday)
