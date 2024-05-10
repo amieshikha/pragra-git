@@ -85,30 +85,7 @@ continue--> skip the iteration.
 --> to call the method we need to use object reference
 
 -) 9th class: 4 April 2024 (Thursday)
-# Recap: (Thursday)
-Git/Github
-Version control System ? tool which helps us to track and manage any changes to our code.
-
-Version control system
-repository where we keep our code
-Collaborate with diff team members
-share code and merge code from diff people
-Pull Request
-C drive Google Drive
-Git ----- GitHub ?
-
-Features of Git
-Distributed System ,
-Manage History
-track changes
-Revert the changes
-merge changes
-Multitasking
-Backups
-Create multiple copies -
-It's not only about the code. It's about the files.
-
-Alternatives to GitHub ? Bitbucket , SVN, Gitlab.
+UNIX
 
 -) 10th class: 6 April 2024 (Saturday)
 # Recap: (Tuesday)
@@ -160,57 +137,7 @@ static context -- non static context.
 
 -) 12th class: 11 April 2024 ( Thursday)
 
-## Recap
-
-Your branch is ahead of 'origin/main' by 1 commit.
-
-local ---- Laptop [1 more comit ]
-
-remote --- github [ ]
-
-
-commit ---> local commit
-
-Branch - pointer to a commit
-
-#
-main
-|
-staging
-|
-develop
-
-
-
-## git branch commands
-git checkout -b branch_name  ===>  create and switch branch at same time.
-git branch                  ===> to check the current branch
-git checkout branch         ====> switch to another branch
-git switch                  ====> switch to another branch
-git branch -d branch_name   ====> delete branch
-git branch --help          =====> list remote branched also
-
-
-1. git stash
-2. git reset
-3. git ignore
-4. rebase
-
-
-
-
-
-develop ----- some more files
-staging ----   less files
-main   ---- same as staging
-
-
-git merge -- merge changes from develop --->  staging
-
-
-
-
-
+UNIX
 -) 13th class: 13 April 2024 (Saturday)
 
 # JDK, JVM, JRE
@@ -300,8 +227,42 @@ default -- no keyword
 every class in Java has a super class called as Object You created it or created by Java
 
 15th class: 18 April 2024( Thursday)
-
+ UNIX
 
 16th class: 20 April 2024( Saturday)
 
+OOPs
+Inheritance
+Encapsulation
+Polymorphism
+Abstraction
+create Object of RBC, Scotia , TD etc...
+
+IS-A relationship (Car is a vehicle ) (ScotiaBank is a Bank )
+
+Aggregation
+
+Has-A relationship Employee has Address
+
+Encapsulation
+wrapping of data into single unit control your data
+
+final ?
+final variables ---- > constant final method ----- > You can not inherit the method final Class ----- > Can not be extended
+
+how to make immutable class ?
+
+Polymorphism
+Abtraction
+
 17th class: 23 April 2024(Tuesday)
+
+18th class: 25 April 2024 (Thursday)
+
+19th class: 27 April 2024 (Saturday)
+20th class: 30 April 2024 (Tuesday)
+21st class: 2 May 2024 (Thursday)
+22nd class: 4 May 2024 (Saturday)
+23rd class: 7 May 2024 (Tuesday)
+
+10:13 pm 9 may 2024
