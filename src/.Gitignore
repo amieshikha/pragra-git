@@ -1,0 +1,6 @@
+# all logs files
+*.logs
+
+
+# exe files
+*.exe
