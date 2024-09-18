@@ -25,9 +25,10 @@ develop
 ## git branch commands
 git checkout -b branch_name  ===>  create and switch branch at same time.
 git branch                  ===> to check the current branch
+git branch -a               ====> to check local and remote all files
 git checkout branch         ====> switch to another branch
 git switch                  ====> switch to another branch
-git branch -d branch_name   ====>
+git branch -d branch_name   ====>  to delete git
 git branch --help          =====> list remote branched also
 
 
