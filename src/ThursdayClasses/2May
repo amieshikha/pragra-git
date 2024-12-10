@@ -1,0 +1,26 @@
+CICD: Continuous Integration Continuous Deployment
+Why there is need of CICD?
+Integration? merge
+automated process
+devops: development + operations: its a way of doing work or the method of performing some kind of things
+devops who actually does half part of the development and half part of the operations and bring up something in the middle
+because of devops the sw release is becoming very efficient and quick
+tools we use:
+Jenkins, circle ci etc
+Jenkins: is an automation tool which provides you an automation process or it helps to automate all different kind of
+ stuffs.
+ Two tools:
+ Maven: Its a build(single file) automation tool.Its a dependency management tool so whatever we need in our project, it automatically downloads for us.
+ which helps you to bundle your project into one single jar.
+ Gradle
+
+
+ .jar: java archive--> whole piece of code will be deployed to the server in one single file
+ .war: web application archive
+
+ code--> .jar file--> installed on server
+ If any piece of code is bundled into something using maven, at the end it says build success.
+ githubcode------> maven---->build(bundled your code into jar file)--->test--->QA--->staging env--->production
+ install jenkins
+ crown job: which you can schedule a job depending upon what time, what date, what sec. Its kind of scheduler kind of stuff.
+ eg. min, hour, day, month,day(week)
